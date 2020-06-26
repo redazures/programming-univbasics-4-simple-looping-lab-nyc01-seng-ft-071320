@@ -22,9 +22,9 @@ end
 
 def return_string_array(array)
   new_array=[]
-  while counter<array.length
-
-  end
   counter=0
+  while counter<array.length
+  new_array[counter]=array[counter]
+  end
   array.each do{|item|new_array<<item.to_s}
 end
