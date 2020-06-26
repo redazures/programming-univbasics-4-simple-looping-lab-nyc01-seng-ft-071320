@@ -12,11 +12,7 @@ def loop_message_n_times(string,num)
   end
 end
 
-def output_array(array)
-  array.each do {|item| puts item}
-end
-
-def output_array2(array)
+def output_array(array,num)
   array.each do {|item| puts item}
 end
 
