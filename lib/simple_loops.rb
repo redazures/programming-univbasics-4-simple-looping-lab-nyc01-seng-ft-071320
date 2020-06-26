@@ -26,5 +26,5 @@ def return_string_array(array)
   while counter<array.length
   new_array[counter]=array[counter]
   end
-  array.each do{|item|new_array<<item.to_s}
+  new_array
 end
