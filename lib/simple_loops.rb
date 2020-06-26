@@ -23,7 +23,7 @@ end
 def return_string_array(array)
   new_array=[]
   while counter<array.length
-    
+
   end
   counter=0
   array.each do{|item|new_array<<item.to_s}
