@@ -12,8 +12,12 @@ def loop_message_n_times(string,num)
   end
 end
 
-def output_array(array,num)
-  array.each do {|item| puts item}
+def output_array(array)
+  counter=0
+  while counter<array.length
+    puts array[counter]
+    counter+=1
+  end
 end
 
 def return_string_array(array)
